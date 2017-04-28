@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toobar_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:id="@+id/title_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="巡查系统"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_20"/>
+
+    </android.support.v7.widget.Toolbar>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff8dc"
+        android:layout_below="@+id/toobar_main">
+    </android.support.v4.view.ViewPager>
+<com.roughike.bottombar.BottomBar
+    android:id="@+id/bottombar_main"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentBottom="true"></com.roughike.bottombar.BottomBar>
+</RelativeLayout>

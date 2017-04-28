@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_assignment" android:icon="@drawable/assign" android:title="任务"/>
+    <item android:id="@+id/menu_map" android:icon="@drawable/map" android:title="地图"/>
+    <item android:id="@+id/menu_setting" android:icon="@drawable/mine" android:title="设置"/>
+</menu>
